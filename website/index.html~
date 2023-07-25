@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sylv</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="pics/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+  </head> 
+
+  <body>
+
+    <div id="rcorners1" style="position:absolute; left:23.5%; top:11.3%;">
+
+    </div>
+    
+      <div id="rcorners2" style="position:absolute; left:23.5%; top:15%;">
+	<div class="name">
+	  <img src="pics/ava.jpg" id="ra" alt="Kotyonok Ra">
+	  <p>
+	    Sylvia Lumen
+	    </p>
+	  <div>
+	    <p>
+	      16 year old python and cpp coder from Ukraine.
+	    </p>
+	    <p>
+	      Rice enjoyer.
+	    </p>
+	  </div>
+	</div>
+      </div>
+  </body>
+
+
+</html>
