@@ -3,7 +3,7 @@ body{
     background:linear-gradient(
           rgba(0, 0, 0, 0.2), 
           rgba(0, 0, 0, 0.2)
-        ), url(/home/sylvia/Documents/code/Websites/NoJS_website/pics/background.jpg) no-repeat center center fixed; 
+        ), url(https://github.com/WaldLumen/waldlumen.github.io/blob/main/pics/background.jpg?raw=true) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,3 +60,28 @@ img {width: 100%; max-width: 100%;}
     padding: 3px; 
     width: 6%;
 }
+
+
+ /* unvisited link */
+a:link {
+    color: hotpink;
+    text-decoration: none; 
+}
+
+/* visited link */
+a:visited {
+    color: hotpink;
+    text-decoration: none; 
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none; 
+}
+
+/* selected link */
+a:active {
+    color: hotpink;
+    text-decoration: none; 
+} 
