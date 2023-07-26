@@ -8,7 +8,8 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-size: 1.5vmax;
+    --size: calc(0.5vmax + 0.5vmin);
+    font-size: calc(2.2 * var(--size));;
 
   
     
@@ -20,7 +21,7 @@ html{
 }
 
 div {
-    color: white;
+    color: #e6e1f9;
     text-align: center;
 }
 
@@ -29,7 +30,7 @@ img {width: 100%; max-width: 100%;}
 
 #ra {
   border-radius: 25px;
-  border: 1px solid white;
+  border: 1px solid #e6e1f9;
   width: 10%;
 }
 
@@ -41,6 +42,8 @@ img {width: 100%; max-width: 100%;}
   width:  70%;
   height: 70%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 #rcorners1 {
@@ -61,27 +64,41 @@ img {width: 100%; max-width: 100%;}
     width: 6%;
 }
 
+#icons {
+    display: inline-block;
+    vertical-align:bottom;
+}
+
+#icons a:link{
+  color: #720e9e;
+    text-decoration: none; 
+}
+
+#icons a:visited{
+ color: #720e9e;
+ text-decoration: none; 
+}
 
  /* unvisited link */
 a:link {
-    color: hotpink;
+    color: #D8BFD8;
     text-decoration: none; 
 }
 
 /* visited link */
 a:visited {
-    color: hotpink;
+    color: #D8BFD8;
     text-decoration: none; 
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color:#D8BFD8 ;
     text-decoration: none; 
 }
 
 /* selected link */
 a:active {
-    color: hotpink;
+    color:#D8BFD8 ;
     text-decoration: none; 
 } 
