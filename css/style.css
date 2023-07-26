@@ -72,6 +72,8 @@ img {width: 100%; max-width: 100%;}
 #icons a:link{
   color: #720e9e;
     text-decoration: none; 
+    --size: calc(0.5vmax + 0.5vmin);
+    font-size: calc(3.1 * var(--size));;
 }
 
 #icons a:visited{
