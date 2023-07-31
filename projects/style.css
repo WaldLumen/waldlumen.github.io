@@ -1,0 +1,84 @@
+#i3 {
+  border-radius: 25px;
+  border: 1px solid #e6e1f9;
+  width: 12%;
+}
+
+#i3-text{
+      line-height: 0.3em;
+}
+
+body{
+
+    background:linear-gradient(
+          rgba(0, 0, 0, 0.2), 
+          rgba(0, 0, 0, 0.2)
+        ), url(https://github.com/WaldLumen/waldlumen.github.io/blob/main/pics/background.jpg?raw=true) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    --size: calc(0.5vmax + 0.5vmin);
+    font-size: calc(2.1 * var(--size));;
+  
+    
+}
+
+html{
+  margin: 0;
+  font-family: JetBrains Mono;
+}
+
+div {
+    color: #e6e1f9;
+    text-align: center;
+}
+
+
+img {width: 100%; max-width: 100%;}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 1px solid #8A2BE2;
+  backdrop-filter: blur(55px);
+  padding: 10px; 
+  width:  70%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#icons a:link{
+  color: #720e9e;
+    text-decoration: none; 
+}
+
+#icons a:visited{
+ color: #720e9e;
+ text-decoration: none; 
+}
+
+ /* unvisited link */
+a:link {
+    color: #D8BFD8;
+    text-decoration: none; 
+}
+
+/* visited link */
+a:visited {
+    color: #D8BFD8;
+    text-decoration: none; 
+}
+
+/* mouse over link */
+a:hover {
+    color:#D8BFD8 ;
+    text-decoration: none; 
+}
+
+/* selected link */
+a:active {
+    color:#D8BFD8 ;
+    text-decoration: none; 
+} 
