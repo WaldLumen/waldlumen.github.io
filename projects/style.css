@@ -49,6 +49,19 @@ img {width: 100%; max-width: 100%;}
   flex-direction: column;
 }
 
+#buttonrcorners {
+  border-radius: 25px;
+  border: 1.6px solid #ffd700;
+  backdrop-filter: blur(55px);
+  background: rgba(255, 215, 0, 0.09);
+  padding: 1px;
+  width:  100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
 #icons a:link{
   color: #720e9e;
     text-decoration: none; 

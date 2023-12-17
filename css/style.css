@@ -35,11 +35,24 @@ img {width: 100%; max-width: 100%;}
 }
 
 #rcorners2 {
+
   border-radius: 25px;
   border: 1px solid #8A2BE2;
   backdrop-filter: blur(55px);
   padding: 10px; 
   width:  70%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+#buttonrcorners {
+  border-radius: 25px;
+  border: 1.6px solid #ffd700;
+  backdrop-filter: blur(55px);
+  background: rgba(255, 215, 0, 0.09);
+  padding: 0.001px;
+  width:  28%;
   height: 70%;
   margin: auto;
   display: flex;
